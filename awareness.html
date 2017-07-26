@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<!-- GEOG 572: Lab 4 -->
+<!-- Randy Sincoular -->
+<!-- 21-Jul-17 Added Situational Awareness Application -->
+
+
+<html lang="en" >
+
+<head>
+    
+    <!-- Provide Proper Rendering and Touch Zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Randy Sincoular</title>
+    
+    <!-- Bootstrap Stylesheet Links -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    
+
+</head>
+
+<body>
+        <!-- -------------- -->
+        <!-- Navigation Bar -->
+        <!-- -------------- -->
+		<nav class="navbar navbar-default navbar-fixed-top"> <!-- Creates the navbar -->
+		  <div class="container">
+		    <div class="navbar-header"> <!-- Creates the navbar header -->
+                
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+						<span class="menu"> Menu</span>
+					</button> <!-- Hamburger button for smaller devices -->
+					<a class="navbar-brand" href="index.html">Randy Sincoular</a> <!-- Your website brand name -->
+		    </div>
+
+		    <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
+		      <ul class="nav navbar-nav navbar-right">  <!-- Unordered list for links on navbar -->
+                  
+                
+		         <li><a href="about.html">About</a></li>
+                 <li class="active"><a href="index.html">Portfolio</a></li> <!-- Make Portfolio Active -->
+				 <li><a href="resume.html">Resume</a></li>
+		         <li><a href="contact.html">Contact</a></li>
+                  
+		      </ul>
+		    </div> <!-- end .navbar-collapse -->
+		  </div> <!-- end .container -->
+		</nav> <!-- end navigation bar -->
+
+    
+        <!-- --------- -->
+        <!-- Jumbotron -->
+        <!-- --------- -->
+		<div class="jumbotron">
+			<div class="container">
+				<h2>Randy Sincoular | Geospatial Professional</h2>
+				<p>Experienced.Innovative.Thorough</p>
+			</div>
+		</div>
+    
+        <!-- --------------------- -->
+        <!-- Infographic Container-->
+        <!-- --------------------- -->
+    
+        <!-- div class="container-fluid">  --> <!-- the paragraph does not line up with the jumbotron -->
+		<div class="container">          <!-- container - lines the paragraph up with left border of the jumbotron -->
+			<div class="row">
+      
+                <!-- --------------------- -->
+                <!-- Situational Awareness -->
+                <!-- --------------------- -->
+                
+				<div class="col-md-8 col-xs-10">
+                    
+                        <h4>Situational Awareness Applicaton using JavaScript and Leaflet</h4>
+                            <p>
+                                This is my final project for GEOG 575.  JavaScript and <a href='http://leafletjs.com/' target='_blank'>Leaflet</a> were used to create this map that combines parcel data and business points for Cottage Grove, WI.  The data was converted to geoJSON format in a WGS 1984 Geographic Coordinate System.  This
+								web application includes a Mapzen geocoder and an optional Weather Radar layer from Iowa State University.
+                            </p>
+                   			
+					        <p>
+                                <h5>Left Click on the Map to Display the actual Leaflet map</h4>
+                            </p>
+
+					<div class="row">
+                        <div class="col-md-12">
+                            <a href="https://randysincoularuw.github.io/GEOG575_Final/#">
+				                <img src="assets/awareness_lg.png" alt="Portfolio Item #2" class="img-responsive"/>
+				            </a> 
+                        </div>
+                        
+                    </div>
+                            <!-- <a href="assets/awareness_lg.png">
+								
+								<img src="assets/awareness_lg.png" alt="Portfolio Item #2" class="center-block img-responsive"/>			
+							
+				            </a>   -->     
+						
+                            <p>
+								<br>
+                                This is an example of the <b>Emergency Contacts</b> button.  It's easy to use and provides contact information for key businesses. <b>CSS</b> was used to create this page.
+								<br>
+								
+                            </p>
+
+                            <a href="assets/emergency_contacts.png">
+	
+			    			<img src="assets/emergency_contacts.png" alt="Portfolio Item #2" class="center-block img-responsive"/>
+				            </a> 
+						
+				</div>
+                
+			</div>   <!-- end row -->
+		</div>       <!-- end container-fluid -->
+
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+</body>
+    
+
+</html>
