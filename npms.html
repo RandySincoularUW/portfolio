@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<!-- GEOG 572: Lab 4 -->
+<!-- Randy Sincoular -->
+<!-- 03-Aug-17 Added Gas regulatory projects: NPMS, DIMP -->
+
+
+<html lang="en" >
+
+<head>
+    
+    <!-- Provide Proper Rendering and Touch Zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Randy Sincoular</title>
+    
+    <!-- Bootstrap Stylesheet Links -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    
+
+</head>
+
+<body>
+        <!-- -------------- -->
+        <!-- Navigation Bar -->
+        <!-- -------------- -->
+		<nav class="navbar navbar-default navbar-fixed-top"> <!-- Creates the navbar -->
+		  <div class="container">
+		    <div class="navbar-header"> <!-- Creates the navbar header -->
+                
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+						<span class="menu"> Menu</span>
+					</button> <!-- Hamburger button for smaller devices -->
+					<a class="navbar-brand" href="index.html">Randy Sincoular</a> <!-- Your website brand name -->
+		    </div>
+
+		    <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
+		      <ul class="nav navbar-nav navbar-right">  <!-- Unordered list for links on navbar -->
+                  
+                
+		         <li><a href="about.html">About</a></li>
+                 <li class="active"><a href="index.html">Portfolio</a></li> <!-- Make Portfolio Active -->
+				 <li><a href="resume.html">Resume</a></li>
+		         <li><a href="contact.html">Contact</a></li>
+                  
+		      </ul>
+		    </div> <!-- end .navbar-collapse -->
+		  </div> <!-- end .container -->
+		</nav> <!-- end navigation bar -->
+
+    
+        <!-- --------- -->
+        <!-- Jumbotron -->
+        <!-- --------- -->
+		<div class="jumbotron">
+			<div class="container">
+				<h2>Randy Sincoular | Geospatial Professional</h2>
+				<p>Experienced.Innovative.Thorough</p>
+			</div>
+		</div>
+    
+        <!-- --------------------- -->
+        <!-- Infographic Container-->
+        <!-- --------------------- -->
+    
+        <!-- div class="container-fluid">  --> <!-- the paragraph does not line up with the jumbotron -->
+		<div class="container">          <!-- container - lines the paragraph up with left border of the jumbotron -->
+			<div class="row">
+      
+
+				<div class="col-md-8 col-xs-10">
+                    
+                        <h4>National Pipeline Mapping System (NPMS)</h4>
+                            <p>
+                                I developed a process using a combination of ArcMap and PL/SQL scripts to identify changes in gas pipelines from year to year to support <a href='https://www.npms.phmsa.dot.gov/About.aspx' target='_blank'>NPMS</a> requirements.
+                            </p>
+                   			
+
+					<div class="row">
+                        <div class="col-md-12">
+				                <img src="assets/npms_map.jpg" alt="Portfolio Item #2" class="img-responsive"/>
+				            </a> 
+                        </div>
+                        
+                    </div>     
+						
+                            <p>
+								<br>
+                                Here is a portion of the NPMS schema the data must be formatted to match.
+								<br> <br>
+								
+                            </p>
+
+	
+			    			<img src="assets/npms_schema.jpg" alt="Portfolio Item #2" class="left-block img-responsive"/>
+				            </a> 
+							<br> <br>
+			                <h4>Gas Distribution Integrity Management Program (DIMP)</h4>
+					        <p>
+								<br>
+                                I was the technical lead for coordinating, implementing and integrating the DNV-GL Uptime application with ArcGIS.  This project involved working with many different work groups, including database analysts, Intel Server and the gas engineering department as well as Esri and DNV-GL.
+								<br>
+								
+                            </p>
+					
+					
+				</div>
+                
+			</div>   <!-- end row -->
+		</div>       <!-- end container-fluid -->
+
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+</body>
+    
+
+</html>
